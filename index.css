@@ -231,6 +231,7 @@ li {
     height: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .about-container-right {
@@ -297,7 +298,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;
+    width: 300px;
     height: 700px;
     max-height: 700px;
     border: 3px solid white;
@@ -314,7 +315,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;
+    width: 300px;
     height: 700px;
     max-height: 700px;
     /* margin-top: 50px; */
@@ -570,18 +571,16 @@ li {
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (min-width: 1050px) {
+
     .project-left {
-        max-width: 330px;
+        width: 40%;
     }
 
     .project-right {
-        max-width: 330px;
+        width: 40%;
     }
 
-}
-
-@media screen and (min-width: 1050px) {
     .screenshot-container {
         width: 70%;
         height: 42%;
