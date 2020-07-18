@@ -315,7 +315,7 @@ li {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 120%;
+    background-size: 100% 100%;
     position: relative;
     /* box-shadow: 3px 3px 5px 6px rgb(41, 41, 41); */
 }
@@ -837,6 +837,7 @@ li {
         /* background-attachment: fixed;  */
         background-position: center;
         background-repeat: no-repeat;
+        
     }
 
     .nav-link {
@@ -943,8 +944,9 @@ li {
         /* -webkit-filter: grayscale(100%); 
         filter: grayscale(100%); */
         /* background-attachment: fixed;  */
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
+        background-size: 100% 110%;
     }
 
     li {
