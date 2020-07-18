@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/89daf33451.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>Carlo's Portfolio</title>
 </head>
+
 <body>
     <section class="intro">
         <div class="splash">
             <div class="intro-text-container">
                 <div class="intro-text-title">Hello,</div>
-                <div class="intro-text-body">my name is</div><div class="intro-text-name"><b>Carlo Paredes.</b></div>
+                <div class="intro-text-body">my name is</div>
+                <div class="intro-text-name"><b>Carlo Paredes.</b></div>
                 <div class="intro-text-body2">Welcome to my digital portfolio.</div>
             </div>
 
@@ -24,195 +33,367 @@
     </section>
 
     <nav class="main-nav">
-        <div id="menutoggle">
+        <ul id="main-menu">
+            <li><a href="#About" class="nav-link">About</a></li>
+            <li><a href="#Projects" class="nav-link">Projects</a></li>
+            <li><a href="#Skills" class="nav-link">Skills</a></li>
+            <li><a href="#Contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <nav class="mobile-nav" role="navigation">
+        <div id="menuToggle">
+
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
             <ul id="menu">
-                <li><a href="#About" class="nav-link">About</a></li>
-                <li><a href="#Projects" class="nav-link">Projects</a></li>
-                <li><a href="#Skills" class="nav-link">Skills</a></li>
-                <li><a href="#Contact" class="nav-link">Contact</a></li>
+                <li><a href="#About" class="mob-nav-link">About</a></li>
+                <li><a href="#Projects" class="mob-nav-link">Projects</a></li>
+                <li><a href="#Skills" class="mob-nav-link">Skills</a></li>
+                <li><a href="#Contact" class="mob-nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    
+
     <div class="wrapper">
-    <div class="text-wrapper">
-    <section id="About">
-        <!-- <div class="title">
+        <div class="text-wrapper">
+            <section id="About">
+                <!-- <div class="title">
             <div class="title-icon"></div>
             <h3>About Me</h3>
         </div> -->
-        
-        <div class="about-container">
-            <div class="about-container-left">
-                <div class="about-pic"></div>
-                <div class="pic-text">Hover for some personality</div>
-            </div>
-            <div class="about-container-right">
-                <h3 class="about-title"><span class="blue-text">Who Am I?</span></h3>
-                <p>
-                    I'm just a guy from LA who <b>loves</b> to <span class="code-text">code</span>. 
-                </p>
 
-                <p class="align-right emphasis">
-                    <i><b><span class="blue-text">...Seriously.</span></b></i>
-                </p>
+                <div class="about-container">
+                    <div class="about-container-left">
+                        <img src="media/serious_resized.png" class="about-pic" />
+                    </div>
+                    <div class="about-container-right">
+                        <h3 class="about-title section-header"><span class="blue-text">Who Am I?</span></h3>
+                        <p>
+                            I'm just a guy from LA who <b>loves</b> to <span class="code-text">code</span>.
+                        </p>
 
-                <p>
-                    There is just something about diving head-first into a seemingly endless pool of libraries and piecing together a technically sound, elegantly constructed, unique solution that I can't get enough of.
-                </p>
+                        <p class="align-right emphasis">
+                            <i><b><span class="blue-text">...Seriously.</span></b></i>
+                        </p>
 
-                <p class="emphasis">
-                    It is in that state of mind that I <b><span class="blue-text bigger">thrive</span></b>.
-                </p>
+                        <p>
+                            There is just something about diving head-first into a seemingly endless pool of libraries
+                            and piecing together a technically sound, elegantly constructed, unique solution that I
+                            can't get enough of.
+                        </p>
 
-                <p>
-                    Through programming, I get to utilize both my <a href="https://www.sciencedirect.com/science/article/abs/pii/S0924424713005505"><b>engineering background</b></a> and <b>creative disposition</b> to conjure up an app from an idea in my head, kinda like a mad scientist <i class="fas fa-flask blue-text"></i>. 
-                </p>
-        
-                <p>
-                    It also has the added benefit of allowing me to meet immensely talented individuals that I can not only <b>work with</b>, but also <b>learn from</b>, ad infinitum. 
-                </p>
+                        <p class="emphasis">
+                            It is in that state of mind that I <b><span class="blue-text bigger">thrive</span></b>.
+                        </p>
 
-                <p class="emphasis">
-                    And boy, do I also <b>love</b> to <span class="blue-text bigger"><b>learn</b></span>.
-                </p>
+                        <p>
+                            Through programming, I get to utilize both my <a
+                                href="https://www.sciencedirect.com/science/article/abs/pii/S0924424713005505"><b>engineering
+                                    background</b></a> and <b>creative disposition</b> to conjure up an app from an idea
+                            in my head, kind of like a mad scientist <i class="fas fa-flask blue-text"></i>.
+                        </p>
 
-                <p class="extra">
-                    When I'm not wearing down the semicolon key on my keyboard, you can catch me training for my next half marathon <i class="fas fa-running blue-text"></i>, messing around on my <a href="https://www.youtube.com/watch?v=bFhMCicscUU">loop station</a>, somewhere in Azeroth <i class="fas fa-keyboard blue-text"></i>, or lying down in the grass looking up at the stars. Because aren't they just so gosh darn beautiful.
-                </p>
-            </div>
+                        <p>
+                            It also has the added benefit of allowing me to meet immensely talented individuals that I
+                            can not only <b>work with</b>, but also <b>learn from</b>, ad infinitum.
+                        </p>
+
+                        <p class="emphasis">
+                            And boy, do I also <b>love</b> to <span class="blue-text bigger"><b>learn</b></span>.
+                        </p>
+
+                        <p class="extra">
+                            When I'm not wearing down the semicolon key on my keyboard, you can catch me training for my
+                            next half marathon <i class="fas fa-running blue-text"></i>, messing around on my <a
+                                href="https://www.youtube.com/watch?v=bFhMCicscUU">loop station</a>, somewhere in
+                            Azeroth <i class="fas fa-keyboard blue-text"></i>, or lying down in the grass looking up at
+                            the stars. Because aren't they just so gosh darn beautiful?
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="bottom-border"></div> -->
+            </section>
         </div>
-        <!-- <div class="bottom-border"></div> -->
-    </section>
+        <div class="cityscape"></div>
+        <section id="Projects">
+            <div class="title">
+                <div class="title-icon"></div>
+                <h3 class="section-header">Projects</h3>
+            </div>
+            <div class="project-container">
+                <div class="project">
+                    <h4 class="project-title">DownStream</h4>
+                    <div class="screenshot-w-container">
+                        <img src="media/ds-splash2.PNG" class="screenshot-w" alt="DownStream">
+                    </div>
+
+                    <div class="main-desc">
+                        MUSIC STREAM MANAGEMENT APP
+                    </div>
+
+                    <div class="link-container">
+                        <button type="button" class="btn btn-info btn-lg no-pad" data-toggle="modal"
+                            data-target="#ds-modal">View Project</button>
+                    </div>
+
+
+                </div>
+
+                <div class="project">
+                    <h4 class="project-title">Lichen</h4>
+                    <div class="screenshot-w-container">
+                        <img src="media/lichen-splash.PNG" class="screenshot-w" alt="Lichen">
+                    </div>
+
+                    <div class="main-desc">
+                        BOOKMARK ORGANIZATION APP
+                    </div>
+
+                    <div class="link-container">
+                        <button type="button" class="btn btn-info btn-lg no-pad" data-toggle="modal"
+                            data-target="#lichen-modal">View Project</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="bottom-border"></div>
+        </section>
+
+        <section>
+            <!-- Modal -->
+            <div class="modal fade" id="lichen-modal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title project-title">Lichen</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="screenshot-container">
+                                <img src="media/lichen1.jpg" class="screenshot" alt="Lichen">
+                                <img src="media/lichen2.jpg" class="screenshot" alt="Lichen">
+                            </div>
+                            <div class="screenshot-description">
+                                Are you chronically disorganized when it comes to keeping track of your favorite
+                                websites? Have
+                                no fear, Lichen is here to save the day! I built this app to help optimize tracking of
+                                your favorite websites.
+                            </div>
+                            <h5 class="skills-text">Tech Used:</h5>
+                            <div class="technology-container">
+                                <span class="tech-label">JavaScript</span>
+                                <span class="tech-label">HTML5</span>
+                                <span class="tech-label">CSS3</span>
+                                <span class="tech-label">jQuery</span>
+                            </div>
+
+
+                        </div>
+                        <div class="modal-body">
+                            <div class="link-container">
+                                <a href="https://thinkful-ei-orka.github.io/carlo-bookmarks-app/"
+                                    class="btn btn-info btn-lg no-pad project-button">Live</a>
+                                <a href="https://github.com/thinkful-ei-orka/carlo-bookmarks-app"
+                                    class="btn btn-info btn-lg no-pad project-button">Code</a>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="ds-modal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title project-title">DownStream</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="screenshot-container">
+                                <img src="media/ds-1.jpg" class="screenshot" alt="DownStream">
+                                <img src="media/ds-2.jpg" class="screenshot" alt="DownStream">
+                            </div>
+                            <div class="screenshot-description">
+                                Hate missing online streaming music events? DownStream is a full-stack app intended for
+                                users to sign up and manage events that they want to keep track of from a curated pool!
+                            </div>
+                            <h5 class="skills-text">Tech Used:</h5>
+                            <div class="technology-container">
+                                <span class="tech-label">JavaScript</span>
+                                <span class="tech-label">HTML5</span>
+                                <span class="tech-label">CSS3</span>
+                                <span class="tech-label">ReactJS</span>
+                                <span class="tech-label">PostgreSQL</span>
+                                <span class="tech-label">Node.JS</span>
+                                <span class="tech-label">Express</span>
+                                <span class="tech-label">Mocha</span>
+                                <span class="tech-label">Chai</span>
+                                <span class="tech-label">Supertest</span>
+                                <span class="tech-label">Vercel</span>
+                                <span class="tech-label">Heroku</span>
+                            </div>
+
+
+                        </div>
+                        <div class="modal-body">
+                            <div class="link-container">
+                                <a href="https://downstream.vercel.app"
+                                    class="btn btn-info btn-lg no-pad project-button">Live</a>
+                            </div>
+                            <div class="link-container">
+                                <a href="https://github.com/cnickp-code/downstream_backend"
+                                    class="btn btn-info btn-lg no-pad project-button2">Backend</a>
+                                <a href="https://github.com/cnickp-code/downstream_frontend"
+                                    class="btn btn-info btn-lg no-pad project-button2">Frontend</a>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="Skills">
+            <div class="title">
+                <div class="title-icon"></div>
+                <h3 class="section-header">Skills</h3>
+            </div>
+
+
+
+            <div class="skills-container">
+
+                <div class="education">
+                    <h4 class="left blue-text">Education</h4>
+                    <ul>
+                        <li class="education-text">Engineering Immersion Program, Thinkful
+                        </li>
+                        <li class="education-text">B.S. Electrical Engineering, University of California Los Angeles.
+                        </li>
+
+                    </ul>
+                </div>
+                <h4 class="blue-text">What I Can Do</h4>
+                <div class="programming-container">
+                    <h4 class="blue-text skills-type">Frontend:</h4>
+
+
+
+                    <div class="programming">
+                        <ul class="technical-list">
+                            <li><span class="tech-label">JavaScript</span></li>
+                            <li><span class="tech-label">React</span></li>
+                        </ul>
+                        <ul class="technical-list">
+                            <li><span class="tech-label">CSS</span></li>
+                            <li><span class="tech-label">Vue</span></li>
+                        </ul>
+                        <ul class="technical-list">
+                            <li><span class="tech-label">HTML5</span></li>
+                            <li><span class="tech-label">jQuery</span></li>
+                        </ul>
+                    </div>
+
+                    <h4 class="blue-text skills-type">Backend:</h4>
+                    <div class="programming">
+                        <ul class="technical-list">
+                            <li><span class="tech-label">Node</span></li>
+                            <li><span class="tech-label">DBeaver</span></li>
+                        </ul>
+                        <ul class="technical-list">
+                            <li><span class="tech-label">Express</span></li>
+                            <li><span class="tech-label">Postman</span></li>
+                        </ul>
+                        <ul class="technical-list">
+                            <li><span class="tech-label">PostgreSQL</span></li>
+                        </ul>
+                    </div>
+
+                    <h4 class="blue-text skills-type">Testing/Tooling:</h4>
+                    <div class="programming">
+                        <ul class="technical-list">
+                            <li><span class="tech-label">Git/GitHub</span></li>
+                            <li><span class="tech-label">Enzyme/Jest</span></li>
+                        </ul>
+                        <ul class="technical-list">
+                            <li><span class="tech-label">Mocha/Chai</span></li>
+                            <li><span class="tech-label">TDD</span></li>
+                        </ul>
+                        <ul class="technical-list">
+                            <li><span class="tech-label">Supertest</span></li>
+
+                        </ul>
+                    </div>
+
+                    <h4 class="blue-text skills-type">Misc:</h4>
+                    <div class="programming">
+                        <ul class="technical-list">
+                            <li><span class="tech-label">C++</span></li>
+                            <li><span class="tech-label">R</span></li>
+                        </ul>
+                        <ul class="technical-list">
+                            <li><span class="tech-label">Python</span></li>
+                            <li><span class="tech-label">MS Suite</span></li>
+                        </ul>
+                        <ul class="technical-list">
+                            <li><span class="tech-label">Matlab</span></li>
+                            <li><span class="tech-label">RESTful API</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="bottom-border"></div>
+        </section>
+
+        <footer id="Contact">
+            <div class="title contact-title">
+                <div class="title-icon"></div>
+                <h3 class="section-header">Contact</h3>
+            </div>
+
+            <div class="blurb-container">
+                <div class="contact-blurb">Let's talk. <i>Collaborate and listen.</i> </div>
+                <div class="icon"></div>
+            </div>
+
+            <div class="contact-container">
+                <a href="mailto:c.nick.paredes@gmail.com" class="contact-link"><i
+                        class="fas fa-envelope-square"></i></a>
+                <a href="https://www.linkedin.com/in/carlo-paredes-73a85b1a9/" class="contact-link"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/cnickp-code" class="contact-link"><i class="fab fa-github-square"></i></a>
+            </div>
+
+        </footer>
     </div>
-    <div class="cityscape"></div>
-    <section id="Projects">
-        <div class="title">
-            <div class="title-icon"></div>
-            <h3>Projects</h3>
-        </div>
-        
-        <div class="project-container">
-            <div class="project-left">
-                <h4>My Bookmarks</h4>
-                <div class="screenshot-container">
-                    <img src="media/bookmarks_screenshot.PNG" class="screenshot" alt="Bookmarks App">
-                </div>
-
-                <div class="screenshot-description">
-                    Are you chronically disorganized when it comes to keeping track of your favorite websites? Have no fear, the Bookmarks App is here to save the day! I built this app to help optimize tracking of your favorite websites. You can seamlessly enter the title, URL, a short description, and rating of the site on one page, as well as delete and edit the bookmarks whenever you want!
-                </div>
-
-                <h5 class="skills-text">Skills Used</h5>
-                <div class="technology-container">
-                    <img src="media/icons8-html-50.png" alt="HTML">
-                    <img src="media/icons8-css-50.png" alt="CSS">
-                    <img src="media/icons8-javascript-logo-50.png" alt="JavaScript">
-                    <img src="media/icons8-jquery-50.png" alt="jQuery">
-                </div>
-
-                <div class="link-container">
-                    <a href="https://thinkful-ei-orka.github.io/carlo-bookmarks-app/" class="code-link">Live</a>
-                    <a href="https://github.com/thinkful-ei-orka/carlo-bookmarks-app" class="code-link">Code</a>
-                </div>
-            </div>
-            <div class="project-left">
-                <h4>Quiz App</h4>
-                <div class="screenshot-container">
-                    <img src="media/quiz_app_screenshot.PNG" class="screenshot" alt="Video Game Quiz">
-                </div>
-                
-                
-                <div class="screenshot-description extra">
-                    Think you know video games? This app is for anyone who wants to show their stuff about how much they actually know about video games. This project was inspired by my absolute love for gaming, whether in the fields of Kalimdor or in lower tuns on Dust2. Test your might!
-                </div>
-
-                <h5 class="skills-text">Skills Used</h5>
-                <div class="technology-container">
-                    <img src="media/icons8-html-50.png" alt="HTML">
-                    <img src="media/icons8-css-50.png" alt="CSS">
-                    <img src="media/icons8-javascript-logo-50.png" alt="JavaScript">
-                    <img src="media/icons8-jquery-50.png" alt="jQuery">
-                </div>
-
-                <div class="link-container">
-                    <a href="https://cnickp-code.github.io/ei-quiz-app-boilerplate/" class="code-link">Live</a>
-                    <a href="https://github.com/cnickp-code/ei-quiz-app-boilerplate" class="code-link">Code</a>
-                </div>
-            </div>
-        </div>
-        <div class="bottom-border"></div>
-    </section>
-    <section id="Skills">
-        <div class="title">
-            <div class="title-icon"></div>
-            <h3>Skills</h3>
-        </div>
 
 
-        
-        <div class="skills-container">
-
-            <div class="education">
-                <h4 class="left blue-text">Education</h4>
-                <ul>
-                    <li class="education-text">B.S. Electrical Engineering, University of California Los Angeles. </li>
-                </ul>
-            </div>
-            <h4 class="left blue-text">Technical Skills</h4>
-            <div class="programming">
-                <ul class="technical-list">
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>C++</li>
-                    <li>Visual Basic</li>
-                    <li>Git</li>
-                </ul>
-                <ul class="technical-list">
-                    <li>MATLAB</li>
-                    <li>AutoCAD</li>
-                    <li>Autodesk Inventor</li>
-                    <li>LabView</li>
-                    <li>Taurus Supreme</li>
-                    <li>ORCAD</li>
-                    <li>Microsoft Suite</li>
-                </ul>
-                <ul class="technical-list">
-                    <li>SolidWorks</li>
-                    <li>R Statistics</li>
-                    <li>Objet24 Software</li>
-                    <li>VLSI Design</li>
-                    <li>LaTex</li>
-                    <li>PSPICE</li>
-                </ul>
-            </div>
-
-        </div>
-        <div class="bottom-border"></div>
-    </section>
-
-    <footer id="Contact">
-        <div class="title contact-title">
-            <div class="title-icon"></div>
-            <h3>Contact</h3>
-        </div>
-
-        <div class="blurb-container">
-            <div class="contact-blurb">Let's talk. <i>Collaborate and listen.</i> </div>
-            <div class="icon"></div>
-        </div>
-
-        <div class="contact-container">
-            <a href="c.nick.paredes@gmail.com" class="contact-link">Email</a>
-            <a href="https://www.linkedin.com/in/carlo-paredes-73a85b1a9/" class="contact-link">LinkedIn</a>
-            <a href="https://github.com/cnickp-code" class="contact-link">GitHub</a>
-        </div>
-        
-    </footer>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </body>
+
 </html>
