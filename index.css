@@ -58,7 +58,7 @@ html {
   margin-bottom: 5px;
   position: relative;
   
-  background: #ebebeb;
+  background: rgb(35, 121, 133);
   border-radius: 3px;
   
   z-index: 1;
@@ -206,8 +206,8 @@ section {
     right: 0;
     z-index: 10;
     height: 60px;
-    background-color: rgb(35, 121, 133);
-    border-bottom: 2px solid rgb(255, 255, 255);
+    /* background-color: rgb(35, 121, 133); */
+    /* border-bottom: 2px solid rgb(255, 255, 255); */
     padding-left: 10px;
     padding-top: 15px;
     vertical-align: middle;
@@ -644,6 +644,7 @@ li {
 
 .education-text {
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .programming-container {
