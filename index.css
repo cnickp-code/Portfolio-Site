@@ -610,7 +610,8 @@ li {
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    background-color: #ffce3f;
+    background-color: rgb(0, 119, 255);
+    /* background-color: #ffce3f; */
     font-family: 'Roboto', sans-serif;
     margin-bottom: 5px;
 }
