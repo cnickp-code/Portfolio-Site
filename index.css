@@ -409,7 +409,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 30px;
-    background-color: #f7f7f7;
+    background-color: #F2F9Fb;
 }
 
 .about-container-right {
@@ -534,7 +534,7 @@ li {
 
 .screenshot-w-container {
     width: 400px;
-    height: auto;
+    height: 290px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -542,7 +542,7 @@ li {
 
 .screenshot-w {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -585,7 +585,7 @@ li {
 }
 
 .project-button {
-    width: 80px;
+    width: 200px;
     height: 40px;
 }
 
@@ -640,7 +640,10 @@ li {
 }
 
 .education {
+    width: 60%;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .education-text {
@@ -687,14 +690,16 @@ li {
 .link-container {
     display: flex;
     flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 90%;
-    height: 36px;
+    height: auto;
     max-width: 260px;
+    gap: 10px;
 }
 
 .code-link {
@@ -782,6 +787,10 @@ li {
 
     .section-header {
         padding-top: 5px;
+    }
+
+    .education {
+        width: 100%;
     }
     
 }
@@ -943,9 +952,6 @@ li {
         background-image: url('media/minimal_door.jpg');
         opacity: 0.65;
         height: 100%;
-        /* -webkit-filter: grayscale(100%); 
-        filter: grayscale(100%); */
-        /* background-attachment: fixed;  */
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 110%;
@@ -978,14 +984,14 @@ li {
         bottom: 0;
         left: 0;
         width: 45vw;
-        /* left: 53%;  */
+
         margin-left: auto;
         margin-right: auto;
-        /* background-color: black; */
+
         padding: 20px;
         opacity: 0.9;
         height: 300px;
-        /* text-shadow: 2px 2px rgba(114, 114, 114, 0.5); */
+
         background-image: -webkit-gradient(linear, left top, right center, from(rgb(0, 0, 0)), to(rgba(114, 114, 114, 0)));
     }
     
@@ -1002,8 +1008,8 @@ li {
         background-attachment: fixed; 
         background-position: center;
         background-repeat: no-repeat;
-        /* -webkit-filter: grayscale(100%); 
-        filter: grayscale(100%); */
+        background-size: cover;
+
         box-shadow: 3px 3px 5px 6px rgb(41, 41, 41);
     }
     .intro-text-title {
@@ -1025,6 +1031,113 @@ li {
     }
 
 
+}
+
+@media screen and (min-width: 2000px) {
+    .main-nav {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .about-container-right p {
+        font-size: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .bigger {
+        font-size: 6rem;
+    }
+
+    .blue-text {
+        font-size: 6rem;
+    }
+
+    .extra {
+        font-size: 3rem !important;
+    }
+
+    .fa-running {
+        font-size: 3rem !important;
+    }
+
+    .fa-keyboard {
+        font-size: 3rem !important;
+    }
+
+    .nav-link {
+        font-size: 4rem;
+    }
+
+    .section-header {
+        font-size: 8rem;
+    }
+
+    .project {
+        max-width: 900px;
+    }
+
+    .project-title {
+        font-size: 6rem;
+    }
+
+    .main-desc {
+        font-size: 4rem;
+    }
+
+    .btn-lg {
+        font-size: 3rem !important;
+    }
+
+    .screenshot-w-container {
+        width: 90%;
+        height: auto;
+    }
+
+    .screenshot-description {
+        font-size: 3rem;
+    }
+
+    .modal-dialog {
+        width: 1200px;
+    }
+
+    .skills-text {
+        font-size: 5rem;
+    }
+
+    .tech-label {
+        font-size: 3rem;
+    }
+
+    .project-button {
+        height: auto;
+        width: auto;
+    }
+
+    .btn {
+        font-size: 3rem;
+    }
+
+    .education-text {
+        font-size: 3rem;
+    }
+    
+    .technical-list li {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .contact-blurb {
+        font-size: 3rem;
+        width: 500px;
+    }
+
+    .contact-container a {
+        font-size: 7rem !important;
+    }
 }
 
 

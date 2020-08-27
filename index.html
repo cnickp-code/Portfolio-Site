@@ -60,7 +60,7 @@
         </div>
     </nav>
 
-    
+
 
     <div class="wrapper">
         <div class="text-wrapper">
@@ -120,10 +120,44 @@
         <div class="cityscape"></div>
         <section id="projects">
             <div class="title">
-                <div class="title-icon"></div>
+                <!-- <div class="title-icon"></div> -->
                 <h3 class="section-header">Projects</h3>
             </div>
             <div class="project-container">
+                <div class="project">
+                    <h4 class="project-title">Date Rush</h4>
+                    <div class="screenshot-w-container">
+                        <img src="media/dr_splash2.PNG" class="screenshot-w" alt="Date Rush">
+                    </div>
+
+                    <div class="main-desc">
+                        DATE GENERATOR APP
+                    </div>
+
+                    <div class="link-container">
+                        <button type="button" class="btn btn-info btn-lg no-pad" data-toggle="modal"
+                            data-target="#dr-modal">View Project</button>
+                    </div>
+
+
+                </div>
+                <div class="project">
+                    <h4 class="project-title">Speak Easy</h4>
+                    <div class="screenshot-w-container">
+                        <img src="media/se_splash.PNG" class="screenshot-w" alt="Date Rush">
+                    </div>
+
+                    <div class="main-desc">
+                        LANGUAGE LEARNING APP
+                    </div>
+
+                    <div class="link-container">
+                        <button type="button" class="btn btn-info btn-lg no-pad" data-toggle="modal"
+                            data-target="#se-modal">View Project</button>
+                    </div>
+
+
+                </div>
                 <div class="project">
                     <h4 class="project-title">DownStream</h4>
                     <div class="screenshot-w-container">
@@ -142,23 +176,7 @@
 
                 </div>
 
-                <div class="project">
-                    <h4 class="project-title">Lichen</h4>
-                    <div class="screenshot-w-container">
-                        <img src="media/lichen-splash.PNG" class="screenshot-w" alt="Lichen">
-                    </div>
 
-                    <div class="main-desc">
-                        BOOKMARK ORGANIZATION APP
-                    </div>
-
-                    <div class="link-container">
-                        <button type="button" class="btn btn-info btn-lg no-pad" data-toggle="modal"
-                            data-target="#lichen-modal">View Project</button>
-                    </div>
-
-
-                </div>
             </div>
 
 
@@ -167,42 +185,114 @@
 
         <section>
             <!-- Modal -->
-            <div class="modal fade" id="lichen-modal" role="dialog">
+            <div class="modal fade" id="se-modal" role="dialog">
                 <div class="modal-dialog">
 
                     <!-- Modal content-->
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title project-title">Lichen</h4>
+                            <h4 class="modal-title project-title">Speak Easy</h4>
                         </div>
                         <div class="modal-body">
-                            <div class="screenshot-container">
-                                <img src="media/lichen1.jpg" class="screenshot" alt="Lichen">
-                                <img src="media/lichen2.jpg" class="screenshot" alt="Lichen">
-                            </div>
+                            <!-- <div class="screenshot-container">
+                                            <img src="media/lichen1.jpg" class="screenshot" alt="Lichen">
+                                            <img src="media/lichen2.jpg" class="screenshot" alt="Lichen">
+                                        </div> -->
                             <div class="screenshot-description">
-                                Are you chronically disorganized when it comes to keeping track of your favorite
-                                websites? Have
-                                no fear, Lichen is here to save the day! I built this app to help optimize tracking of
-                                your favorite websites.
+                                Learn either French or Spanish through spaced-repetition learning! The app offers
+                                speech-to-text and text-to-speech, allowing for audio learning of the language of
+                                choice. Also, multiple learning modes such as multiple choice and fill in the blank!
                             </div>
                             <h5 class="skills-text">Tech Used:</h5>
                             <div class="technology-container">
                                 <span class="tech-label">JavaScript</span>
                                 <span class="tech-label">HTML5</span>
                                 <span class="tech-label">CSS3</span>
-                                <span class="tech-label">jQuery</span>
+                                <span class="tech-label">React</span>
+                                <span class="tech-label">PostgreSQL</span>
+                                <span class="tech-label">Node</span>
+                                <span class="tech-label">Express</span>
+                                <span class="tech-label">Mocha</span>
+                                <span class="tech-label">Chai</span>
+                                <span class="tech-label">Supertest</span>
+                                <span class="tech-label">Vercel</span>
+                                <span class="tech-label">Heroku</span>
                             </div>
 
 
                         </div>
                         <div class="modal-body">
                             <div class="link-container">
-                                <a href="https://thinkful-ei-orka.github.io/carlo-bookmarks-app/"
-                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Live</a>
-                                <a href="https://github.com/thinkful-ei-orka/carlo-bookmarks-app"
-                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Code</a>
+                                <a href="https://speak-easy-lake.vercel.app/"
+                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Live App</a>
+                                <a href="https://github.com/thinkful-ei-orka/spaced-repetition-Carlo-Jacob-Thomas"
+                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Frontend Code</a>
+                                <a href="https://github.com/thinkful-ei-orka/spaced-repetition-api-Carlo-Thomas-Jacob"
+                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Backend Code</a>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="dr-modal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title project-title">Date Rush</h4>
+                        </div>
+                        <div class="modal-body">
+                            <!-- <div class="screenshot-container">
+                                <img src="media/lichen1.jpg" class="screenshot" alt="Lichen">
+                                <img src="media/lichen2.jpg" class="screenshot" alt="Lichen">
+                            </div> -->
+                            <div class="screenshot-description">
+                                Whether you’re out of ideas or just want to be spontaneous, build a date with four easy
+                                steps with Date Rush! Users can log in, choose preferences, and are given a myriad of
+                                choices in the area based on selections! Users can then save the date and see it in
+                                their profile whenever they want.
+                            </div>
+                            <h5 class="skills-text">Tech Used:</h5>
+                            <div class="technology-container">
+                                <span class="tech-label">JavaScript</span>
+                                <span class="tech-label">HTML5</span>
+                                <span class="tech-label">CSS3</span>
+                                <span class="tech-label">React</span>
+                                <span class="tech-label">PostgreSQL</span>
+                                <span class="tech-label">Node</span>
+                                <span class="tech-label">Express</span>
+                                <span class="tech-label">Mocha</span>
+                                <span class="tech-label">Chai</span>
+                                <span class="tech-label">Supertest</span>
+                                <span class="tech-label">Vercel</span>
+                                <span class="tech-label">Heroku</span>
+                                <span class="tech-label">Google Maps API</span>
+                                <span class="tech-label">Google Places API</span>
+                                <span class="tech-label">Google GeoCoding API</span>
+                                <span class="tech-label">Cocktail DB API</span>
+                                <span class="tech-label">Meal DB API</span>
+                                <span class="tech-label">Movie DB API</span>
+                                <span class="tech-label">Zomato API</span>
+                            </div>
+
+
+                        </div>
+                        <div class="modal-body">
+                            <div class="link-container">
+                                <a href="https://date-rush-v2.vercel.app/"
+                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Live App</a>
+                                <a href="https://github.com/cnickp-code/date-rush-v2"
+                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Frontend Code</a>
+                                <a href="https://github.com/cnickp-code/date-rush_backend"
+                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Backend Code</a>
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -223,10 +313,10 @@
                             <h4 class="modal-title project-title">DownStream</h4>
                         </div>
                         <div class="modal-body">
-                            <div class="screenshot-container">
+                            <!-- <div class="screenshot-container">
                                 <img src="media/ds-1.jpg" class="screenshot" alt="DownStream">
                                 <img src="media/ds-2.jpg" class="screenshot" alt="DownStream">
-                            </div>
+                            </div> -->
                             <div class="screenshot-description">
                                 Hate missing online streaming music events? DownStream is a full-stack app intended for
                                 users to sign up and manage events that they want to keep track of from a curated pool!
@@ -252,7 +342,7 @@
                         <div class="modal-body">
                             <div class="link-container">
                                 <a href="https://downstream.vercel.app"
-                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Live</a>
+                                    class="btn btn-info btn-lg no-pad project-button" target="_blank">Live App</a>
                             </div>
                             <div class="link-container">
                                 <a href="https://github.com/cnickp-code/downstream_backend"
@@ -273,13 +363,14 @@
 
         <section id="skills">
             <div class="title">
-                <div class="title-icon"></div>
+                <!-- <div class="title-icon"></div> -->
                 <h3 class="section-header">Skills</h3>
             </div>
 
 
 
             <div class="skills-container">
+
 
                 <div class="education">
                     <h4 class="left blue-text">Education</h4>
@@ -291,6 +382,26 @@
 
                     </ul>
                 </div>
+
+                <div class="education">
+                    <h4 class="left blue-text">Experience</h4>
+                    <ul>
+                        <li class="education-text">Kimay Studios, <i>Junior Frontend Developer</i>
+                        </li>
+                        <li class="education-text">Contributing Developer on: ABC Project: <a
+                                href="https://ibb.co/Qpc2cb4" target="_blank">1</a>, <a href="https://ibb.co/Lrdg61x"
+                                target="_blank">2</a>, <a href="https://ibb.co/MNvCjRv" target="_blank">3</a> | WATS 
+                            World: <a
+                            href="https://ibb.co/QJ0CSFH" target="_blank">1</a>, <a href="https://ibb.co/wN08bxb"
+                            target="_blank">2</a>, <a href="https://ibb.co/vBdzv9J" target="_blank">3</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="resume-container">
+                    <a href="https://drive.google.com/file/d/1eWxsWTfGCV3bUf4ZcsyGqlcx-nmeARRJ/view?usp=sharing"
+                        class="btn btn-info btn-lg no-pad resume-button" target="_blank">View Resume</a>
+                </div>
                 <h4 class="blue-text">Things I Do</h4>
                 <div class="programming-container">
                     <h4 class="blue-text skills-type">Frontend:</h4>
@@ -300,7 +411,7 @@
                     <div class="programming">
                         <ul class="technical-list">
                             <li><span class="tech-label">JavaScript</span></li>
-                            <li><span class="tech-label">React</span></li>
+                            <li><span class="tech-label">React/React Native</span></li>
                         </ul>
                         <ul class="technical-list">
                             <li><span class="tech-label">CSS</span></li>
@@ -361,19 +472,17 @@
                 </div>
 
             </div>
-            <div class="resume-container">
-                <a href="https://drive.google.com/file/d/1eWxsWTfGCV3bUf4ZcsyGqlcx-nmeARRJ/view?usp=sharing" class="btn btn-info btn-lg no-pad resume-button" target="_blank">View Resume</a>
-            </div>
- 
+
+
             <div class="bottom-border"></div>
 
 
-            
+
         </section>
 
         <footer id="contact">
             <div class="title contact-title">
-                <div class="title-icon"></div>
+                <!-- <div class="title-icon"></div> -->
                 <h3 class="section-header">Contact</h3>
             </div>
 
@@ -387,7 +496,8 @@
                         class="fas fa-envelope-square"></i></a>
                 <a href="https://www.linkedin.com/in/carlo-paredes-73a85b1a9/" class="contact-link" target="_blank"><i
                         class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/cnickp-code" class="contact-link" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a href="https://github.com/cnickp-code" class="contact-link" target="_blank"><i
+                        class="fab fa-github-square"></i></a>
             </div>
 
         </footer>
