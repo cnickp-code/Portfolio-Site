@@ -428,7 +428,7 @@ li {
 .about-container-left {
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7;
+    background-color: #F2F9Fb;
 }
 
 .about-pic {
